@@ -25,7 +25,8 @@
         android:id="@+id/Bfilmydoobejrzenia"
         android:layout_marginBottom="23dp"
         android:layout_above="@+id/Bdodajpozycje"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="onBfilmydoobejrzeniaClick" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -35,7 +36,8 @@
         android:id="@+id/Bdodajpozycje"
         android:layout_above="@+id/Bedycja"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="27dp" />
+        android:layout_marginBottom="27dp"
+        android:onClick="onBdodajpozycjeClick" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -45,5 +47,6 @@
         android:id="@+id/Bedycja"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="24dp" />
+        android:layout_marginBottom="24dp"
+        android:onClick="onBedycjaClick" />
 </RelativeLayout>

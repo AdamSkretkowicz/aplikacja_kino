@@ -25,7 +25,8 @@
         android:id="@+id/Bzapiszpozytcje"
         android:layout_above="@+id/Bpowrotpozycji"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="27dp" />
+        android:layout_marginBottom="27dp"
+        android:onClick="onBzapiszpozycjeClick" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -35,5 +36,6 @@
         android:id="@+id/Bpowrotpozycji"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="24dp" />
+        android:layout_marginBottom="24dp"
+        android:onClick="onBpowrotpozycjiClick" />
 </RelativeLayout>
