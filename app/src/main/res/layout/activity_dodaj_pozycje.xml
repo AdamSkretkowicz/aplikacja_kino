@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Zapisz"
-        android:id="@+id/Bzapiszpozytcje"
+        android:id="@+id/Bzapiszpozycje"
         android:layout_above="@+id/Bpowrotpozycji"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="27dp"
