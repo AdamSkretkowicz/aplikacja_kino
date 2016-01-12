@@ -1,5 +1,6 @@
 package com.skretkowicz.kino;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -17,8 +18,8 @@ public class Filmy_do_obejrzenia extends AppCompatActivity {
     {
         if(v.getId() == R.id.Bedycja)
         {
-            Intent i = new Intent(Filmy_do_obejrzenia.this, Edycja.class);
-            startActivity(i);
+            Intent i1 = new Intent(Filmy_do_obejrzenia.this, Edycja.class);
+            startActivity(i1);
         }
     }
 
@@ -26,8 +27,8 @@ public class Filmy_do_obejrzenia extends AppCompatActivity {
     {
         if(v.getId() == R.id.Bdodajpozycje)
         {
-            Intent i = new Intent(Filmy_do_obejrzenia.this, Dodaj_pozycje.class);
-            startActivity(i);
+            Intent i2 = new Intent(Filmy_do_obejrzenia.this, Dodaj_pozycje.class);
+            startActivity(i2);
         }
     }
 
@@ -35,8 +36,8 @@ public class Filmy_do_obejrzenia extends AppCompatActivity {
     {
         if(v.getId() == R.id.Bfilmyobejrzane)
         {
-            Intent i = new Intent(Filmy_do_obejrzenia.this, Filmy_obejrzane.class);
-            startActivity(i);
+            Intent i3 = new Intent(Filmy_do_obejrzenia.this, Filmy_obejrzane.class);
+            startActivity(i3);
         }
     }
 }

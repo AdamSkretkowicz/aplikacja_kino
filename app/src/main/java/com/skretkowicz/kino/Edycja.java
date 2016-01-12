@@ -3,12 +3,11 @@ package com.skretkowicz.kino;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-/**
- * Created by Adam on 2016-01-06.
- */
-public class Edycja extends Activity {
+public class Edycja extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,8 +18,8 @@ public class Edycja extends Activity {
     {
         if(v.getId() == R.id.Bpowrotedycji)
         {
-            Intent i = new Intent(Edycja.this, Filmy_do_obejrzenia.class);
-            startActivity(i);
+            Intent i4 = new Intent(Edycja.this, Filmy_do_obejrzenia.class);
+            startActivity(i4);
         }
     }
 }
